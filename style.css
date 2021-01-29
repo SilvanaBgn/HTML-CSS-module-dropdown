@@ -1,0 +1,13 @@
+* {
+  font-family: Helvetica;
+}
+container {
+  display: flex;
+  justify-content: space-around;
+  font: 18px/20px Helvetica, Arial, sans-serif;
+  height: 300px;
+}
+section {
+  height: 300px;
+  border: 1px solid #000;
+}
