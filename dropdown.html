@@ -7,7 +7,16 @@
   <title>Dropdowns with HTML/CSS</title>
 </head>
 <body>
-  <container></container>
+  <container>
+    <div class="dd_with_chkb">
+      <p>Dropdown with Checkbox</p>
+      <label class="toogle" for="chkb">Select a section</label>
+      <input class="chkb" type="checkbox" id="chkb">
+      <a class="dd_a" href="#Section1" onclick="document.getElementById('chkb').click();">Section One</a>
+      <a class="dd_a" href="#Section2" onclick="document.getElementById('chkb').click();">Section Two</a>
+      <a class="dd_a" href="#Section3" onclick="document.getElementById('chkb').click();">Section Three</a>
+    </div>
+  </container>
   <section id="Section1">Section One</section>
   <section id="Section2">Section Two</section>
   <section id="Section3">Section Three</section>

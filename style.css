@@ -11,3 +11,50 @@ section {
   height: 300px;
   border: 1px solid #000;
 }
+.dd_with_chkb,
+.dd_with_select,
+.dd_with_hover {
+  width: 300px;
+}
+
+/* ---------------------------
+Dropdown with CHECKBOX 
+---------------------------- */
+.dd_with_chkb label.toogle {
+  /* dropdown toogle */
+  display: block;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: white;
+  color: #303030;
+  border: 1px solid #c2c2c2;
+}
+.dd_with_chkb label.toogle:hover {
+  cursor: pointer;
+}
+
+.dd_with_chkb input.chkb {
+  /* checkbox invisible*/
+  display: none;
+}
+.dd_with_chkb #chkb:checked ~ .dd_a {
+  display: block;
+  box-sizing: border-box;
+}
+
+.dd_with_chkb .dd_a {
+  /* dropdown item */
+  display: none;
+  padding: 15px;
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+.dd_with_chkb .dd_a:hover {
+  background-color: #f0f0f0;
+}
+.dd_with_chkb .dd_a:last-child {
+  border-bottom: 1px solid #c2c2c2;
+}
