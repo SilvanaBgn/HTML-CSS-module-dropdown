@@ -58,3 +58,40 @@ Dropdown with CHECKBOX
 .dd_with_chkb .dd_a:last-child {
   border-bottom: 1px solid #c2c2c2;
 }
+
+/* ---------------------------
+Dropdown with CSS HOVER 
+---------------------------- */
+.dd_with_hover div.toogle {
+  /* dropdown toogle */
+  display: block;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: white;
+  color: #303030;
+  border: 1px solid #c2c2c2;
+}
+.dd_with_hover div.toogle:hover {
+  cursor: pointer;
+}
+.dd_with_hover div.toogle:hover > .dd_a {
+  display: block;
+  box-sizing: border-box;
+}
+/*.dd_with_hover div.toogle:hover {
+  padding-bottom: 0;
+}*/
+.dd_with_hover .dd_a {
+  /* dropdown item */
+  display: none;
+  padding: 15px 0;
+  color: #000;
+  font-size: 16px;
+  text-decoration: none;
+}
+.dd_with_hover .dd_a:first-child {
+  margin-top: 15px;
+}
+.dd_with_hover .dd_a:hover {
+  background-color: #f0f0f0;
+}
