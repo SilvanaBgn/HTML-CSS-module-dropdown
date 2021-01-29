@@ -95,3 +95,23 @@ Dropdown with CSS HOVER
 .dd_with_hover .dd_a:hover {
   background-color: #f0f0f0;
 }
+
+/* ---------------------------
+Dropdown with HTML SELECT 
+---------------------------- */
+.dd_with_select select {
+  width: 100%;
+  padding: 15px 0 15px 5px;
+}
+.dd_with_select select option {
+  /* dropdown item */
+  min-height: 50px;
+  padding: 15px;
+  border-left: 1px solid #c2c2c2;
+  border-right: 1px solid #c2c2c2;
+  color: #303030;
+  text-decoration: none;
+}
+.dd_with_select select option:hover {
+  background-color: #f0f0f0;
+}

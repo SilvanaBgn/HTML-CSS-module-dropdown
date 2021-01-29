@@ -24,6 +24,14 @@
         <a class="dd_a" href="#Section3">Section Three</a>
       </div>
     </div>
+    <div class="dd_with_select">
+      <p>Dropdown with HTML select</p>
+      <select name="sections" id="select" onchange="document.getElementById(this.value).scrollIntoView()">
+        <option value="Section1">Section One</option>
+        <option value="Section2">Section Two</option>
+        <option value="Section3">Section Three</option>
+      </select>
+    </div>
   </container>
   <section id="Section1">Section One</section>
   <section id="Section2">Section Two</section>
